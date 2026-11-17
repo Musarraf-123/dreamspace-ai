@@ -1,0 +1,43 @@
+{
+  "name": "@dreamspace/client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "build:android": "npm run build && npx cap sync android",
+    "build:ios": "npm run build && npx cap sync ios",
+    "build:mobile": "npm run build && npx cap sync",
+    "cap:add:android": "npx cap add android",
+    "cap:sync": "npx cap sync android",
+    "cap:sync:android": "npx cap sync android",
+    "cap:sync:ios": "npx cap sync ios",
+    "cap:open": "npx cap open android",
+    "cap:open:ios": "npx cap open ios",
+    "cap:run": "npx cap run android",
+    "cap:run:ios": "npx cap run ios",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test src/lib/*.test.js"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.2.0",
+    "@capacitor/app": "^7.1.2",
+    "@capacitor/camera": "^7.0.5",
+    "@capacitor/core": "^7.2.0",
+    "@capacitor/ios": "^7.6.10",
+    "@capacitor/splash-screen": "^7.0.5",
+    "@capacitor/status-bar": "^7.0.6",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.9",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.2.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.8.3",
+    "vite": "^6.0.5"
+  }
+}

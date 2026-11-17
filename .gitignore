@@ -1,0 +1,41 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+coverage/
+.DS_Store
+*.log
+/android/
+/ios/
+
+# Private signing and credentials
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mobileprovision
+*.provisionprofile
+keystore.properties
+AuthKey_*.p8
+credentials*.json
+secrets*.json
+
+# Local native configuration
+local.properties
+
+# Optional if Firebase is added later
+google-services.json
+GoogleService-Info.plist
+
+# Build artifacts outside the native ignore files
+*.apk
+*.aab
+*.ipa
+
+# Editor state
+.idea/
+.vscode/

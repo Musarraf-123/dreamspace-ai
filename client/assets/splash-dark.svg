@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2732" height="2732" viewBox="0 0 2732 2732">
+  <rect width="2732" height="2732" fill="#183D2A"/>
+  <circle cx="1366" cy="1110" r="350" fill="#F7F7F2"/>
+  <g transform="translate(1090 834) scale(.54)">
+    <g fill="none" stroke="#183D2A" stroke-linecap="round" stroke-linejoin="round" stroke-width="42">
+      <path d="M230 501 512 270l282 231"/><path d="M310 464v313h404V464"/><path d="M458 777V578h108v199"/>
+      <path d="M367 566h58v58h-58zM599 566h58v58h-58z"/>
+    </g><path d="m782 205 13 39 39 13-39 13-13 39-13-39-39-13 39-13z" fill="#B19358"/>
+  </g>
+  <text x="1366" y="1650" fill="#F7F7F2" text-anchor="middle" font-family="Georgia, serif" font-size="114">DreamSpace AI</text>
+  <text x="1366" y="1745" fill="#CBD7C8" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" letter-spacing="8">THOUGHTFUL DESIGN FOR THE WAY WE LIVE</text>
+</svg>

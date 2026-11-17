@@ -1,0 +1,10 @@
+/* Android 15/16 edge-to-edge windows expose these insets in Capacitor's WebView. */
+body {
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.workspace-sidebar {
+  padding-top: calc(22px + env(safe-area-inset-top, 0px));
+  padding-bottom: calc(15px + env(safe-area-inset-bottom, 0px));
+}
